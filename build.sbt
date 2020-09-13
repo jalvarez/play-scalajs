@@ -8,6 +8,7 @@ lazy val server = (project in file("server"))
     compile in Compile := ((compile in Compile) dependsOn scalaJSPipeline).value,
     libraryDependencies ++= Seq(
       "com.vmunier" %% "scalajs-scripts" % "1.1.4",
+      "com.adrianhurt" %% "play-bootstrap" % "1.6.1-P28-B4",
       guice,
       specs2 % Test
     )
