@@ -34,3 +34,7 @@ bin/
 # vscode
 .bloop
 .metals
+
+#npm
+node_modules
+package-lock.json
